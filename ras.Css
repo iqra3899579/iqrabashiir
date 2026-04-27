@@ -1,0 +1,88 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif
+    ;
+}
+body{
+    background-image: url(bariss.jpg);
+    background-size: 100vw 200vh;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+}
+header{
+    background-color: red;
+}
+p index.html{
+    color: blue;
+}
+
+
+}
+    
+    
+
+header h1{
+    font-size: 2em;
+    text-align: center;
+    color: blue;
+}
+header p{
+    color: #fffedc;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+}
+nav a{
+    color: goldenrod;
+    font-size: 30px;
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+}
+main p{
+    line-height: 3em;
+    color: yellow;
+    letter-spacing: 20%;
+    text-indent: 30px;
+
+
+}
+
+
+.ul menu{
+    color: blue;
+    text-align: center;
+
+}
+.footer{
+    background-color: lightcoral;
+    height: 100px;
+    font-size: medium;
+    font-style: italic;
+}
+ .footer about{
+     background-color: lightcoral;
+    height: 100px;
+    font-size: medium;
+    font-style: italic;
+}
+#h2 menu{
+    background-color: blue;
+    color: green;
+}
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+     
+    
+  
