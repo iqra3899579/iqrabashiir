@@ -1,77 +1,187 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="so">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=-0, initial-scale=1.0">
-    <title>qoobey restrunt</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu — Flame Box</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="menu.css">
 </head>
-<body class="menu">
-    <link rel="stylesheet" href="ras.Css">
-    <header>
-        <h1>our menu</h1>
-    </header>
-    <nav>
-        <ul>
-         <li> <a href="index.html">home</a></li>
-          <li> <a href="menu.html">menu</a></li>
-          <li> <a href="about.html">about</a></li>
-          <li> <a href="galary.html">galary</a></li>
-         <li> <a href="contact.html">contact</a></li>
-     </ul>       
-</nav>
-<main class="img">
-    <h1>main dishes</h1>
-    <ul class="menu">
-        <li class="menu">
-        <img src="bariss.jpg" alt="bariis">
-        <span>pariis iyo hilip ari</span>-bariis
-         aad umacn iyo hilip ari</li>
-        <li>
-            <img src="chicken.jpg" alt="chicken">
+<body>
+    <link rel="stylesheet" href="style.css">
 
-            <span>chicken iyo suqaar</span>-fried chicken cups with vigtable</li>
-        <li class="menu">
-            <img src="basto.jpg" alt="basto">
-            <span>spagati somali style</span>-pasta with rich souse</li>
-    </ul>
-    <h2 id="menu">Cabitaanada Naka Heleysaan</h2>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="logo">FLAME<span>BOX</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    
-    
-    <ul>
-        <li class="menu">
-            <img src="mango.jpg" alt="maango">
-            mngo juice</li>
-        <li class="menu">
-            <img src="shaah.jpg" alt="shaax">
-            
-            shaah</li>
-        <li class="menu">
-            <img src="milk.jpg" alt="milk">
-          </style>  fresh milk</li>
-    </ul>
-    <h2>Deserts</h2>
-    <ul>
-        <li class="main">
-            <img src="xalwo.jpg" alt="xalwo"> 
-            Halwa</li>
-        <li class="menu">
-            <img src="timir.jpg" alt="timir"> 
-            
-            timir</li>
-        
-        <li class="menu">
-            <img src="moos.jpg" alt="moos">
-            
-            banna with sugar</li>
-    </ul
-    <blockquote>
-        "taste tradition of somali in ever bite"
-    </blockquote>
-    <footer class="footer">
-        <p>&copy;2026 qoobey restrunt| mogadisbanadir</p> 
-    </footer>
-</main>
-    
+  <section class="menu-hero">
+    <p class="eyebrow">Grilled fresh, served fast</p>
+    <h1>The Menu</h1>
+    <p class="hero-sub">Fast food iyo cabitaanno la kariyay dab furan — dhadhan aad u qurxan, si degdeg ah loo diyaariyo.</p>
+    <div class="ember-divider" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </div>
+
+    <div class="jump-nav">
+      <a href="#fast-food">Fast Food</a>
+      <a href="#drinks">Drinks</a>
+    </div>
+  </section>
+
+  <main class="menu-wrap">
+
+    <section class="menu-category" id="fast-food">
+      <div class="category-head">
+        <span class="category-tag">01</span>
+        <h2>Fast Food</h2>
+        <p>Diyaariyay dab tooska ah, si xoog leh loogu shiilay.</p>
+      </div>
+
+      <div class="menu-grid">
+
+        <article class="menu-card">
+          <span class="badge badge-popular">Popular</span>
+          <img src="flame burger.jpeg" alt="burger">
+          <div class="card-top">
+            <h3>Flame Burger</h3>
+            <span class="price">$6.50</span>
+          </div>
+          <p>Hilib dibi oo la gubay, farmaajo cheddar, khudaar cusub, saws gaar ah oo dab leh.</p>
+        </article>
+
+        <article class="menu-card">
+          <img src="cheese.jpeg" alt="cheese">
+          <div class="card-top">
+            <h3>Cheese Blast Burger</h3>
+            <span class="price">$7.50</span>
+          </div>
+          <p>Laba shiil oo hilib ah, saddex nooc oo farmaajo ah, buskud jaban.</p>
+        </article>
+
+        <article class="menu-card">
+          <span class="badge badge-popular">Popular</span>
+          <img src="loaded.jpeg" alt="loaded">
+          <div class="card-top">
+            <h3>Loaded Fries</h3>
+            <span class="price">$4.90</span>
+          </div>
+          <p>French fries oo lagu daboolay farmaajo dhalaalaysa, hilib jajaban iyo saws.</p>
+        </article>
+
+        <article class="menu-card">
+          <span class="badge badge-spicy">Spicy</span>
+          <img src="spicy.jpeg" alt="spicy">
+          <div class="card-top">
+            <h3>Spicy Wings (6pc)</h3>
+            <span class="price">$5.90</span>
+          </div>
+          <p>Baalal digaag oo la gubay, dabaqle basbaas leh — heerar kala duwan ayaad dooran kartaa.</p>
+        </article>
+
+        <article class="menu-card">
+          <img src="grilled.jpeg" alt="grilled">
+          <div class="card-top">
+            <h3>Grilled Hot Dog</h3>
+            <span class="price">$4.50</span>
+          </div>
+          <p>Sujuuq la gubay oo lagu daray basal la kariyay iyo mustard gaar ah.</p>
+        </article>
+
+        <article class="menu-card">
+          <span class="badge badge-new">New</span>
+          <img src="chicken box.jpeg" alt="chicken">
+          <div class="card-top">
+            <h3>Crispy Chicken Box</h3>
+            <span class="price">$7.90</span>
+          </div>
+          <p>Digaag jilicsan oo laga sameeyay bir kulul, la keenayo fries iyo saws.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="menu-category" id="drinks">
+      <div class="category-head">
+        <span class="category-tag">02</span>
+        <h2>Drinks</h2>
+        <p>Cabitaanno qabow oo qaboojiya dabka menu-ga.</p>
+      </div>
+
+      <div class="menu-grid">
+
+        <article class="menu-card">
+          <img src="limon.jpeg" alt="limon">
+          <div class="card-top">
+            <h3>Fresh Lemonade</h3>
+            <span class="price">$2.50</span>
+          </div>
+          <p>Liin cusub oo la miisto, aad u qaboow.</p>
+        </article>
+
+        <article class="menu-card">
+          <span class="badge badge-popular">Popular</span>
+          <img src="mango.jpeg" alt="mango">
+          <div class="card-top">
+            <h3>Mango Smoothie</h3>
+            <span class="price">$3.50</span>
+          </div>
+          <p>Cambe cusub oo lagu daray caano iyo barafka.</p>
+        </article>
+
+        <article class="menu-card">
+          <img src="iced cofea.jpeg" alt="cofea">
+          <div class="card-top">
+            <h3>Iced Tea</h3>
+            <span class="price">$2.20</span>
+          </div>
+          <p>Shaah qabow, xamar iyo malab yar ayaa lagu daray.</p>
+        </article>
+
+        <article class="menu-card">
+          <img src="soda.jpeg" alt="soda">
+          <div class="card-top">
+            <h3>Cola / Soda</h3>
+            <span class="price">$1.80</span>
+          </div>
+          <p>Cabitaan qabow oo dhammaystiran cuntada dabka.</p>
+        </article>
+
+        <article class="menu-card">
+          <img src="milshake.jpeg" alt="milshake">
+          <div class="card-top">
+            <h3>Milkshake</h3>
+            <span class="price">$3.90</span>
+          </div>
+          <p>Vanilla, chocolate ama strawberry — dooro midaad jeceshahay.</p>
+        </article>
+
+        <article class="menu-card">
+          <img src="juice.jpeg" alt="">
+          <div class="card-top">
+            <h3>Iced Coffee</h3>
+            <span class="price">$3.20</span>
+          </div>
+          <p>Qaxwo qabow oo xoog leh, si aad u toosto.</p>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Flame Box — Fast Food. Real Fire.</p>
+  </footer>
+
 </body>
 </html>

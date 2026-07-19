@@ -1,45 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="so">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Qoobey restrunt</title>
+    <title>Flame Box | Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <link rel="stylesheet" href="ras.Css">
-    <header>
-        <h1> contact us</h1>
+    <link rel="stylesheet" href="style.css">
+
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="logo123.jpeg" alt="Flame Box Logo" class="site-logo">
+            <div class="logo-text">Flame<span>Box</span></div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="menu.html">menu</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-         <li> <a href="index.html">home</a></li>
-          <li> <a href="menu.html">menu</a></li>
-          <li> <a href="about.html">about</a></li>
-          <li> <a href="galary.html">galary</a></li>
-         <li> <a href="contact.html">contact</a></li>
-     </ul>       
-    </nav>
-    <main>
-        <h2>Get in touch</h2>
-        <p> you can visit<span>mogadiso-bandir somalia</span>
-        or contact us thorough the falowing:</p>
-        <ul>
-            <li>phone:+252 61 3899579</li>
-            <li>Email:info@Qoobey.com</li>
-            <li>location: mogadisho</li>
-        </ul>
-        <h3>opening hours</h3>
-        <ul>
-            <li>saturday - thursday:8:AM - 10:00PM</li>
-            <LI>Frady:3:00pm - 11:00pm</LI>
-        </ul>
-        <blockquote>
-            "we are ready alwy to sarver you"
-        </blockquote>
-        <footer class="contact">
-            <p>&copy;2026 qoobey restrunt| mogadisbanadir</p> 
-        </footer>
+
+    <main class="page-padding">
+        <h2 class="section-title">Nala Soo Xiriir Ama Dalbo</h2>
+        <div class="form-container">
+            <form action="#" method="POST" class="order-form">
+                <fieldset>
+                    <legend>Foomka Dalabka & Xiriirka</legend>
+                    
+                    <label for="name">Magacaaga :</label>
+                    <input type="text" id="name" name="name" placeholder="Geli magacaaga..." required>
+
+                    <label for="phone">Telefoonkaaga:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Geli telefoonkaaga..." required>
+
+                    <label for="subject">Ujeedada fariinta:</label>
+                    <select id="subject" name="subject">
+                        <option value="order">Waxaan rabaa dalab cunto</option>
+                        <option value="feedback">Delivery</option>
+                        <option value="support">poxcing</option>
+                    </select>
+
+                    <label for="message">Faahfaahinta dalabkaaga ama fariintaada:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Halkan ku qor waxaad u baahan tahay..." required></textarea>
+
+                    <button type="submit" class="submit-btn">Gudbi Hadda</button>
+                </fieldset>
+            </form>
+        </div>
     </main>
-    
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Flame Box. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
